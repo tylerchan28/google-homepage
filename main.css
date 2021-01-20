@@ -1,0 +1,172 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    color: #5f6368;
+    white-space: nowrap;
+    margin: 0 !important;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    line-height: 40px;
+}
+.top {
+    display: inline-block;
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+    font-size: 13px;
+}
+.searchbar {
+    position: relative;
+    width: 580px;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1ef;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    font-size: small;
+    color: #222;
+    font-family: arial, sans-serif;
+    margin-top: 30px;
+    padding: 0;
+}
+button {
+    display: flex;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+.nav {
+    position: left;
+    top: 0;
+    width: 100%;
+    height: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.navright {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    padding-right: 4px;
+}
+.navleft {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    padding-left: 4px;
+}
+.logo {
+    display: block;
+    padding-top: 165px;
+    margin-top: auto;
+    margin-left: auto;
+    width: 50%;
+    padding-right: 135px;
+}
+.buttoncontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+.litop {
+    margin-right: 9px;
+    margin-left: 9px;
+    color:#474747;
+    font-size: 13px;
+    padding-left: 0px;
+    opacity: 1;
+}
+.libottom {
+    margin-right: 9px;
+    margin-left: 9px;
+    color: black;
+    font-size: 14px;
+    padding-left: 10px;
+    opacity: .6;
+}
+.bluebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #4285f4;
+    background-color: #4285f4;
+    width: 70px;
+    height: 30px;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    border-radius: 2px;
+    text-align: center;
+    white-space: nowrap;
+    margin-top: 3px;
+}
+footer {
+    align-items: center;
+    justify-content: space-between;
+    background-color:#f2f2f2;
+    position: absolute;
+    bottom: 0px;
+    width: 99%;
+    height: 20px;
+    padding-top: 0px;
+    padding-bottom: 19px;
+    border-width: .5pt;
+    border-style: solid;
+    border-color: rgb(236, 235, 235);
+}
+.footerleft {
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+.footerright {
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+.magnify {
+    color: rgb(154, 160, 166);
+    display: flex;
+    position: absolute;
+    fill: rgb(154, 160, 166);
+    font-size: 13px;
+    height: 14px;
+    line-height: 24px;
+    width: 14px;
+    opacity: .4;
+    padding-right: 530px;
+    padding-top: 30px;
+}
+.searchcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.appsbutton {
+    padding-top: 6px;
+    padding-left: 5px;
+}
+.mic{
+    display: flex;
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    padding-left: 530px;
+    padding-top: 30px;
+}
